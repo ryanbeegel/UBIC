@@ -1,2 +1,10 @@
 <!DOCTYPE html>
-<h1>You have applied to join the University at Buffalo Investment Fund. We will take a look at your application and get back to you as soon as we can. Thanks.</h1>
+<html>
+  <head>
+    <title>Thanks</title>
+    <link href="/assets/join.css.scss" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>You have applied to join the University at Buffalo Investment Fund. We will take a look at your application and get back to you as soon as we can. Thanks.</h1>
+  </body>
+</html>
