@@ -6,6 +6,7 @@ h1{
   color: #1E09AB;
   font-family: Impact, Haettenschweiler, fantasy;
   text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 h2 {
@@ -21,4 +22,20 @@ p {
 
 footer {
   background-color: #6E6E6E;
+}
+
+a:link {
+  color: #1E09AB;
+  text-decoration: none;
+}
+a:visited {
+  color: #1E09AB;
+  text-decoration: none;
+}
+a:hover {
+  color: #1E09AB;
+  text-decoration: underline;
+}
+a:active {
+  color: #693656;
 }
