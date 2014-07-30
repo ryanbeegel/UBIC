@@ -5,9 +5,15 @@
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
+    <meta name="description"
+      content="Website for University at Buffalo Investment Club" />
+    <meta http-equiv="author"
+      content="Ryan Beegel" />
+    <meta http-equiv="pragma"
+      content="no-cache" />
   </head>
   <body>
-    <img src="/assets/long_logo.png" height="285" width="1169" />
+    <%= image_tag 'long_logo.png' %>
     <ul>
       <li><%= link_to "Home", welcome_index_path %></li>
       <li><%= link_to "About", welcome_about_path %></li>
@@ -19,13 +25,13 @@
 
   </body>
   <footer>
-    <a href="http://mgt.buffalo.edu/" target="blank"><img src="/assets/mgt.gif" /></a>
+    <a href="http://mgt.buffalo.edu/" target="blank"><%= image_tag 'mgt.gif' %></a>
     <p><%= link_to "Home", welcome_index_path %></p>
     <p><%= link_to "About", welcome_about_path %></p>
     <p><%= link_to "Members", members_index_path %></p>
     <p><%= link_to "Join", join_index_path %></p>
     <p>contact us at <a href="mailto:ubinvestmentfund@gmail.com">UBInvestmentFund@gmail.com</a></p>
     <p>Website created by <a href="www.linkedin.com/pub/ryan-beegel/89/953/5b5/">Ryan Beegel</a></p>
-    <img src="/assets/logo.png" height="150" width="150" />
+    <%= image_tag 'logo.png' %>
   </footer>
 </html>
