@@ -12,13 +12,13 @@
     <meta http-equiv="pragma"
       content="no-cache" />
   </head>
-  <body>
+  <body class="layout">
     <%= image_tag 'long_logo.png' %>
     <ul>
-      <li><%= link_to "Home", welcome_index_path %></li>
-      <li><%= link_to "About", welcome_about_path %></li>
-      <li><%= link_to "Members", members_index_path %></li>
-      <li><%= link_to "Join", join_index_path %></li>
+      <li class="one"><%= link_to "Home", welcome_index_path %>
+      <li class="two"><%= link_to "About", welcome_about_path %>
+      <li class="three"><%= link_to "Members", members_index_path %>
+      <li class="four"><%= link_to "Join", join_index_path %>
     </ul>
 
   <%= yield %>
