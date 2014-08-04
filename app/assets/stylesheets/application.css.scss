@@ -23,9 +23,50 @@ p {
   width: 400px;
 }
 
-li.one, li.two, li.three, li.four {
+p.three {
+  -moz-box-shadow: 0 0 10px #777777; 
+  -webkit-box-shadow: 0 0 10px #777777;
+  box-shadow: 0 0 10px #777777;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li.one, li.two, li.three, li.four, li.five {
+  font-size: 20px;
   display: inline;
-  margin-right: 150px;
+  margin: 0px 65px;
+}
+
+#navigation {
+  width: 1000px;
+  padding: 20px;
+  margin: -275px auto 400px auto;
+  text-align: center;
+}
+
+th {
+  letter-spacing: 0.1em;
+  font-size: 110%;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999;
+  text-align: center;
+}
+
+th, td {
+  padding: 7px 10px 10px 10px;
+  text-align: center;
+}
+
+tr.odd {
+  background-color: #efefef;
+}
+tr.even {
+  background-color: #C7CAD1;
+}
+tr:hover {
+  background-color: #c3e6e5;
 }
 
 footer {

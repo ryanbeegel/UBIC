@@ -14,11 +14,12 @@
   </head>
   <body class="layout">
     <%= image_tag 'long_logo.png' %>
-    <ul>
+    <ul id="navigation">
       <li class="one"><%= link_to "Home", welcome_index_path %>
       <li class="two"><%= link_to "About", welcome_about_path %>
-      <li class="three"><%= link_to "Members", members_index_path %>
-      <li class="four"><%= link_to "Join", join_index_path %>
+      <li class="three"><%= link_to "Portfolio", portfolio_index_path %>
+      <li class="four"><%= link_to "Members", members_index_path %>
+      <li class="five"><%= link_to "Join", join_index_path %>
     </ul>
 
   <%= yield %>
