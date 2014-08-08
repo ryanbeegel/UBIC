@@ -1,138 +1,134 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <h1>Apply Now!</h1>
-    <p>All majors are accepted. Looking for students to fulfill positions in <b>accounting</b>, <b>finance/economics</b>, <b>human resources</b>, <b>marketing</b>, and <b>technology</b>.</p>
+    <h1 class="five">Apply Now!</h1>
+    <p>Preferred majors are Finance, Economics, and Accounting, but all majors are accepted. Looking for students to fulfill positions in <b>accounting</b>, <b>finance/economics</b>, <b>human resources</b>, <b>marketing</b>, and <b>technology</b>.</p>
     <h3><u>Requirements to Join:</u></h3>
     <p>
       <ol>
-        <li>Minimum 3.0 GPA</li>
-        <li>An Attached Resume</li>
         <li>Knowledge/Interest in Investing</li>
         <li>Able to attend weekly meetings as well as mandatory events</li>
+        <li>An Attached Resume</li>
       </ol>
     </p>
     <form>
-      <label>
-        Name:
-        <input type="text" name="name" required="required" />
-      </label>
-      <br />
-      
-      <label>
-        Email:
-        <input type="email" name="email" required="required" />
-      </label>
-      <br />
-      
-      <label>
-        Major:
-        <input type="text" name="major" required="required" />
-      </label>
-      <br />
-      
-      <p>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label>
+          <b>Name:</b>
+          <input type="text" name="name" required="required" />
+        </label>
+        <br />
+        
+        <label>
+          <b>Email:</b>
+          <input type="email" name="email" required="required" />
+        </label>
+        <br />
+        
+        <label>
+          <b>Major:</b>
+          <input type="text" name="major" required="required" />
+        </label>
+        <br />
+        
+        <p>
+          <b>Grade Level:</b>
+          <br />
+          <label>
+            <input type="radio" name="grade" value="freshman" />
+            Freshman
+          </label>
+          <label>
+            <input type="radio" name="grade" value="sophomore" />
+            Sophomore
+          </label>
+          <label>
+            <input type="radio" name="grade" value="junior" />
+            Junior
+          </label>
+          <label>
+            <input type="radio" name="grade" value="senior" />
+            Senior
+          </label>
+          <label>
+            <input type="radio" name="grade" value="other" />
+            Other
+          </label>
+        </p>
+        
         <label for="background">
-          Investing Background:
+          <b>Investing Background:</b>
         </label>
         <br />
         <textarea>Enter your investing background...</textarea>
-      </p>
+      </fieldset>
+      <fieldset>
+        <legend>Other Info</legend>
+        <p>
+          <b>Position Applying For:</b>
+          <br />
+          <label>
+            <input type="checkbox" name="position" value="finance/economics" />
+            Investment Analyst
+          </label>
+          <label>
+            <input type="checkbox" name="position" value="hr" />
+            Human Resources/Alumni Relations
+          </label>
+          <label>
+            <input type="checkbox" name="position" value="marketing" />
+            Marketing
+          </label>
+          <label>
+            <input type="checkbox" name="position" value="technology" />
+            Technology
+          </label>
+        </p>
 
-      <p>
-        Position Applying For:
-        <br />
-        <label>
-          <input type="checkbox" name="position" value="accounting" />
-          Accounting
-        </label>
-        <label>
-          <input type="checkbox" name="position" value="finance/economics" />
-          Finance/Economics
-        </label>
-        <label>
-          <input type="checkbox" name="position" value="hr" />
-          Human Resources/Alumni Relations
-        </label>
-        <label>
-          <input type="checkbox" name="position" value="marketing" />
-          Marketing
-        </label>
-        <label>
-          <input type="checkbox" name="position" value="technology" />
-          Technology
-        </label>
-      </p>
+        <p><b>Upload Your Resume:</b></p>
+        <input type="file" name="resume" /><br />
+        <input type="submit" value="Upload" />
+      </fieldset>
+      
+      <div class="submit"><input type="submit" value="Submit" /></div>
+    </form>
 
-      <p>
-        Grade Level:
-        <br />
-        <label>
-          <input type="radio" name="grade" value="freshman" />
-          Freshman
-        </label>
-        <label>
-          <input type="radio" name="grade" value="sophomore" />
-          Sophomore
-        </label>
-        <label>
-          <input type="radio" name="grade" value="junior" />
-          Junior
-        </label>
-        <label>
-          <input type="radio" name="grade" value="senior" />
-          Senior
-        </label>
-        <label>
-          <input type="radio" name="grade" value="other" />
-          Other
-        </label>
-      </p>
-
-      <p>Upload Your Resume:</p>
-      <input type="file" name="resume" /><br />
-      <input type="submit" value="Upload" />
-
-      <p>
-        <input type="submit" value="Submit" />
-      </p>
-    </form
-
-    <h2>Member Responsibilites</h2>
-      <h3>Fund Managers</h3>
-        <ul>
-          <li>Managing a specific industry portfolio</li>
-          <li>Overseeing research analysts</li>
-          <li>Market research and investment selection</li>
-          <li>Perform extensive equity research and valuation</li>
-          <li>Creating equity research reports</li>
-          <li>Maintaining fund performance pitch book</li>
-        </ul>
-      <h3>Research Analysts</h3>
-        <ul>
-          <li>Performing extenive equity research</li>
-          <li>Conducting stock pitches</li>
-          <li>Assisting fund managers in investment selection</li>
-        </ul>
-      <h3>Human Resources/Alumni Relations</h3>
-        <ul>
-          <li>Compliance with internal/external organizational needs</li>
-          <li>Contactin alumni for organizational support/speaker events</li>
-        </ul>
-      <h3>Marketers</h3>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      <h3>Technology</h3>
-        <ul>
-          <li>Maintenance of investment cllub's website</li>
-          <li>Support of investment trading platform</li>
-          <li>Assisting club with all technological needs</li>
-        </ul>
+      <h2>Member Responsibilites</h2>
+        <h3>Fund Managers</h3>
+          <ul>
+            <li>Managing a specific industry portfolio</li>
+            <li>Overseeing research analysts</li>
+            <li>Market research and investment selection</li>
+            <li>Perform extensive equity research and valuation</li>
+            <li>Creating equity research reports</li>
+            <li>Maintaining fund performance pitch book</li>
+          </ul>
+        <h3>Research Analysts</h3>
+          <ul>
+            <li>Performing extenive equity research</li>
+            <li>Conducting stock pitches</li>
+            <li>Assisting fund managers in investment selection</li>
+          </ul>
+        <h3>Human Resources/Alumni Relations</h3>
+          <ul>
+            <li>Compliance with internal/external organizational needs</li>
+            <li>Contactin alumni for organizational support/speaker events</li>
+          </ul>
+        <h3>Marketers</h3>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        <h3>Technology</h3>
+          <ul>
+            <li>Maintenance of investment cllub's website</li>
+            <li>Support of investment trading platform</li>
+            <li>Assisting club with all technological needs</li>
+          </ul>
   </body>
 </html>
