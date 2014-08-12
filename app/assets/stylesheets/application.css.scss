@@ -33,6 +33,10 @@ h2.one, h2.two {
   width: 550px;
 }
 
+h2.two {
+  font-size: 13px;
+}
+
 p {
   font-family: Georgia, Times, serif;
   font-size: 13.5px;
@@ -48,6 +52,9 @@ p.three {
   -moz-box-shadow: 0 0 10px #777777; 
   -webkit-box-shadow: 0 0 10px #777777;
   box-shadow: 0 0 10px #777777;
+  position: relative;
+  bottom: 343px;
+  left: 585px;
 }
 
 ul {
@@ -64,6 +71,7 @@ li.one, li.two, li.three, li.four, li.five {
   width: 1000px;
   padding: 20px;
   margin: -275px auto 400px auto;
+  margin-left: 185px;
   text-align: center;
 }
 
