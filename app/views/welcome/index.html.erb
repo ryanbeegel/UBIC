@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <h1>WALL STREET @ BUFFALO</h1>
+    <div class="intropage1">
+      <h1>WALL STREET @ BUFFALO</h1>
 
-    <h2>University at Buffalo's Student-Run Virtual Hedge Fund</h2>
+      <h2>University at Buffalo's Student-Run Virtual Hedge Fund</h2>
 
-    <p>Students within the School of Management are proud to announce the creation of The University at Buffalo Investment Club (UBIC). UBIC is a School of Management organization always looking to recruit individuals to be part of a $30,000,000 student-run virtual hedge fund.</p>
-    <p>Our intention here at the UBIC is to provide students with a strong foundation in the functioning of the capital markets.  We seek to involve students in the research, analysis, and maintenance of a securities portfolio using a hands-on approach that would effectively bridge the gap between classroom concepts and real world situations.</p>
-    <h2>Interested in becoming a member of UBIC? <%= link_to "Join Here", join_index_path %></h2>
-    <%= image_tag 'wallstreet.jpeg' %>
+      <p>Students within the School of Management are proud to announce the creation of The University at Buffalo Investment Club (UBIC). UBIC is a School of Management organization always looking to recruit individuals to be part of a $30,000,000 student-run virtual hedge fund.</p>
+      <p>Our intention here at the UBIC is to provide students with a strong foundation in the functioning of the capital markets.  We seek to involve students in the research, analysis, and maintenance of a securities portfolio using a hands-on approach that would effectively bridge the gap between classroom concepts and real world situations.</p>
+      <h2>Interested in becoming a member of UBIC? <%= link_to "Join Here", join_index_path %></h2>
+    </div>
+    <div class="intropage2">
+      <%= image_tag 'wallstreet.jpeg' %>
+    </div>
+    <div class="thinkorswim">
+      <a href="https://www.tdameritrade.com/tools-and-platforms/thinkorswim/features.page" target="blank"><%= image_tag 'thinkorswim.jpeg' %></a>
+    </div>  
   </body>
 </html>
